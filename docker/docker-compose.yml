@@ -1,0 +1,14 @@
+services:
+  apache:
+    image: veenixdev/cms-apache
+    ports:
+      - "80:80"
+    volumes:
+      - "./apache/conf/:/home/cms/conf/"
+      - "./apache/data/:/home/cms/data/"
+  cms:
+    image: veenixdev/cms
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./cms/data/:/home/cms/"

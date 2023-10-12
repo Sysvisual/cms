@@ -1,0 +1,6 @@
+[ ] Anlegen einer View
+[ ] View Destination Resolver anlegen (host auf viewname mappen)
+[ ] dynamisches befüllen mit Daten
+[ ] Erste beispielseite
+[ ] Docker zum laufen bekommen
+[ ] Grafana zum Docker hinzufügen
